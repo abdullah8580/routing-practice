@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Name() {
   return (
     <div>
       <div>
         <nav>
           <ul>
             <li>
-              <Link href={"/name"}>Name</Link>
+              <Link href={"/"}>Go Home</Link>
             </li>
             <li>
               <Link href={"/address"}>Address</Link>
@@ -16,7 +16,7 @@ export default function Home() {
         </nav>
       </div>
       <div>
-        <h1>This is the Home Page of my practice website! </h1>
+        <h1>Abdullah Sarfraz is My Name!</h1>
       </div>
     </div>
   );
